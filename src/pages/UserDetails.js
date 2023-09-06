@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { useLoaderData, useParams } from 'react-router-dom';
+import loaimg from './../../public/loader.gif';
 
 const UserDetails = () => {
   const userInfo = useLoaderData();
@@ -15,6 +16,7 @@ const UserDetails = () => {
         </b>
         <p>
           {/* <img src="https://media.giphy.com/media/OiC5BKaPVLl60/giphy.gif" /> */}
+          <img src="./loader.gif" alt="" />
           <img
             src="https://media.giphy.com/media/csSISCKKS8ZEXPIDSG/giphy.gif"
             width="100"
